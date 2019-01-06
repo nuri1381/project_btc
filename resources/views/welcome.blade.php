@@ -94,35 +94,23 @@
   
    
     
-     </body>
-    <footer id="" class='row bg-dark'>
-
-			
-				<div class="row">
-				<div class=" col col-8">
-				<a  href="#"><i class="fa fa-angle-up"></i></a>
-				
-				
+ </body>
+ <footer class=' bg-dark '>		
+			<div class="row mx-2 ">
+				<div class="col col-6 mt-3">
 					
-					
-						
-					<img src="http://www.ieselcalamot.com/wp-content/uploads/sites/8/2015/02/gene-ensenyament1.png" alt="">
-												
-						<div id="copyright">
-						<p> INSTITUT EL CALAMOT <br /><a href="http://cwww.ieselcalamot.com/?page_id=35">Avda. Joan Carles I, 62 08850 GAVÀ</a><br />Tel. 936334450 - Copyright © 2015 - IES El Calamot | <a href="http://calamotwp.clickartedu.com/?page_id=315">Nota legal</a></p>
-						</div><!--/#copyright-->
-					
-												
-					</div>
-					
-					<div class=" col col-6">	
-						<ul class="row"><li><a rel="nofollow" class="col mx-3" title="Facebook" href="https://www.facebook.com/institutelcalamot?fref=ts" target="Array"><i class="fa fa-facebook " style="font-size: 30px;"></i></a></li><li><a rel="nofollow" class="col p-2 mx-3" title="Twitter" href="https://twitter.com/inselcalamot" target="Array"><i class="fa fa fa-twitter" style="font-size: 30px;"></i></a></li><li><a rel="nofollow" class="col p-2 mx-3" title="Youtube" href="https://www.youtube.com/user/institutelcalamot" target="Array"><i class="fa fa-youtube " style="font-size: 30px;"></i></a></li><li><a rel="nofollow" class="col p-2 mx-3" title="rss" href="http://feeds.feedburner.com/institutelcalamot" ><i class="fa fa-rss " style="font-size: 30px;"></i></a></li><li><a rel="nofollow" class="col p-2 mx-3 text-info " title="Mail" href="mailto://ieselcalamot@xtec.cat" target="Array"><i class="fa fa-envelope " style="font-size: 30px;"></i></a></li><li><a rel="nofollow" class="col p-2 mx-3" title="Instagram" href="https://www.instagram.com/institutelcalamot/" ><i class="fa fa-instagram" style="font-size: 30px;"></i></a></li></ul>				
-					</div>
-				</div>
-					
-		
-		
-	</footer><!--/#footer-->
+						<img src="http://www.ieselcalamot.com/wp-content/uploads/sites/8/2015/02/gene-ensenyament1.png" alt="">												
+							<p>INSTITUT EL CALAMOT</p>
+							<p><a href="http://cwww.ieselcalamot.com/?page_id=35">Avda. Joan Carles I, 62 08850 GAVA</a></p>									
+					</div>					
+				<div class=" col col-6 text-center mt-5">	
+			<div class="row"><div><a rel="nofollow" class="col mx-3" title="Facebook" href="https://www.facebook.com/institutelcalamot?fref=ts" style="font-size: 30px;"  target="Array"><i class="fab fa-facebook-f"></i></a></div><div class="col"><a rel="nofollow" class="col p-2 mx-3" title="Twitter" href="https://twitter.com/inselcalamot" target="Array"><i class="fab fa-twitter "  style="font-size: 30px;"></i></a></div><div class="col"><a rel="nofollow" class="col p-2 mx-3" title="Youtube" href="https://www.youtube.com/user/institutelcalamot" target="Array"><i class="fab fa-youtube" style="font-size: 30px;"></i></a></div><div class="col"><a rel="nofollow" class="col p-2 mx-3" title="rss" href="http://feeds.feedburner.com/institutelcalamot" ><i class="fa fa-rss " style="font-size: 30px;"></i></a></div><div class="col"><a rel="nofollow" class="col p-2 mx-3 text-info " title="Mail" href="mailto://ieselcalamot@xtec.cat" target="Array"><i class="fa fa-envelope " style="font-size: 30px;"></i></a></div><div class="col"><a rel="nofollow" class="col p-2 mx-3" title="Instagram" href="https://www.instagram.com/institutelcalamot/" ><i class="fab fa-instagram" style="font-size: 30px;"></i></a></div></div>				
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col text-center">Tel. 936334450 - Copyright  2015 - IES El Calamot | <a href="http://calamotwp.clickartedu.com/?page_id=315">Nota legal</a></p></div>
+	</div>	
+</footer>
 	
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
