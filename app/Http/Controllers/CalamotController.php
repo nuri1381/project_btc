@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Ofertas;
 class CalamotController extends Controller
 {
     /**
@@ -13,7 +13,12 @@ class CalamotController extends Controller
      */
     public function index()
     {
-        
+       //recupera las ofertas con paginacion
+       $ofertas=Ofertas::orderBy('id','DESC')->paginate(5);
+       // recuperamos las ofertas de la base de dato
+       $total=Ofertas::count();
+       //retorna la vista con las Ofertas 
+       return view('calamot/CalamotController',['ofertas'=>$ofertas,'total'=>$total]);
     }
 
     /**
@@ -23,7 +28,8 @@ class CalamotController extends Controller
      */
     public function create()
     {
-        //
+        //carga la vista con el formulario 
+        return view('calamot/addOfertas');
     }
 
     /**
@@ -34,7 +40,10 @@ class CalamotController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //validacion de datos 
+        $request->validate([
+            
+        ]);
     }
 
     /**
