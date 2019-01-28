@@ -19,4 +19,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/new-offer', function () {
+    return view('new-offer');
+});
+
     Route::Resource("calamot","CalamotController");
