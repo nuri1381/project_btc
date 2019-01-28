@@ -24,3 +24,6 @@ Route::get('/new-offer', function () {
 });
 
     Route::Resource("calamot","CalamotController");
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
